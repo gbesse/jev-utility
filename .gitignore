@@ -1,0 +1,9 @@
+# Purpose: Exclude local environments, builds, caches and data.
+__pycache__/
+.venv/
+*.egg-info/
+dist/
+.local/
+local-data/
+*.sqlite*
+.jev-cache*

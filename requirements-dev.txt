@@ -1,0 +1,2 @@
+# Purpose: Install the stdlib-only package for local checks.
+-e .
