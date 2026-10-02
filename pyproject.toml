@@ -4,7 +4,7 @@ requires=["setuptools>=68"]
 build-backend="setuptools.build_meta"
 [project]
 name="jev-utility"
-version="0.1.0"
+version="0.1.1"
 description="Expected-utility thresholds, abstention, calibration and value-of-information analysis."
 requires-python=">=3.11"
 license={text="MIT"}

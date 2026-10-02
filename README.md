@@ -14,6 +14,10 @@ python -m examples.offline_demo
 
 The demo uses synthetic probabilities.
 
+## Example: how mistake costs move the cutoff
+
+Run `python -m examples.cost_scenarios` for three synthetic mistake-cost settings. The JSON report shows the corresponding probability cutoff and which of the same sample probabilities would be accepted. This demonstrates policy sensitivity, not model calibration or a recommended production threshold.
+
 ## Call real Jev
 
 There is no network call: this package accepts probabilities from Jev or any other source. If Jev produced them, that upstream request is paid and goes to `api.typesafe.ai`; this toolkit never reads `TYPESAFE_API_KEY`. `python scripts/live_smoke.py` confirms the boundary.
